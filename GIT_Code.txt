@@ -1,0 +1,104 @@
+Microsoft Windows [Version 10.0.17134.829]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\aaditya>mkdir git-practice
+
+C:\Users\aaditya>cd 911 calldata
+The system cannot find the path specified.
+
+C:\Users\aaditya>mkdir 911 calldata
+
+C:\Users\aaditya>cd 911 calldata
+The system cannot find the path specified.
+
+C:\Users\aaditya>mkdir 911-calldata
+
+C:\Users\aaditya>cd 911-calldata
+
+C:\Users\aaditya\911-calldata>git init
+Initialized empty Git repository in C:/Users/aaditya/911-calldata/.git/
+
+C:\Users\aaditya\911-calldata>ls -ltr
+total 0
+
+C:\Users\aaditya\911-calldata>ls -la
+total 32
+drwxr-xr-x 1 aaditya 197609 0 Jul  7 10:14 .
+drwxr-xr-x 1 aaditya 197609 0 Jul  7 10:13 ..
+drwxr-xr-x 1 aaditya 197609 0 Jul  7 10:14 .git
+
+C:\Users\aaditya\911-calldata>git remote add origin https://github.com/aadityam824/911-calldata.git
+
+C:\Users\aaditya\911-calldata>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aadityam824/911-calldata.git'
+
+C:\Users\aaditya\911-calldata>cd C:\Users\aaditya\Desktop\Python Class_Mitesh\Data Science\Course Material\Mini Project-1 911Calls Data
+
+C:\Users\aaditya\Desktop\Python Class_Mitesh\Data Science\Course Material\Mini Project-1 911Calls Data>copy 911CallsDataProject-Overview.ipynb
+The file cannot be copied onto itself.
+        0 file(s) copied.
+
+C:\Users\aaditya\Desktop\Python Class_Mitesh\Data Science\Course Material\Mini Project-1 911Calls Data>copy 911CallsDataProject-Overview.ipynb C:\Users\aaditya\911-calldata
+        1 file(s) copied.
+
+C:\Users\aaditya\Desktop\Python Class_Mitesh\Data Science\Course Material\Mini Project-1 911Calls Data>cd C:\Users\aaditya\911-calldata
+
+C:\Users\aaditya\911-calldata>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        911CallsDataProject-Overview.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\aaditya\911-calldata>git add 911CallsDataProject-Overview.ipynb
+warning: LF will be replaced by CRLF in 911CallsDataProject-Overview.ipynb.
+The file will have its original line endings in your working directory
+
+C:\Users\aaditya\911-calldata>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   911CallsDataProject-Overview.ipynb
+
+
+C:\Users\aaditya\911-calldata>git remote add origin https://github.com/aadityam824/911-calldata.git
+fatal: remote origin already exists.
+
+C:\Users\aaditya\911-calldata>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/aadityam824/911-calldata.git'
+
+C:\Users\aaditya\911-calldata>git commit -m "Second Commit"
+[master (root-commit) 6a82530] Second Commit
+ 1 file changed, 2713 insertions(+)
+ create mode 100644 911CallsDataProject-Overview.ipynb
+
+C:\Users\aaditya\911-calldata>git remote add origin https://github.com/aadityam824/911-calldata.git
+fatal: remote origin already exists.
+
+C:\Users\aaditya\911-calldata>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 139.33 KiB | 6.33 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/aadityam824/911-calldata.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\aaditya\911-calldata>git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\aaditya\911-calldata>
